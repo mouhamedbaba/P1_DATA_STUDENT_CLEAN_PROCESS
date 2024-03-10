@@ -2,14 +2,14 @@ from utils import get_date_month_digit, display_menu, get_int, get_str
 import pandas as pd
 import os
 
-
 class App():
+
     def __init__(self) -> None:
         self.data = []
         self.valid_data = []
         self.invalid_data = []
 
-    def format_note(self, matiers) -> dict:
+    def format_note(self, matiers : str) -> dict:
         notes = {
             "FRANCAIS" : {},
             "ANGLAIS" : {},
@@ -103,7 +103,7 @@ class App():
         except FileNotFoundError :
             print("Impossible de trouver les donnes")
 
-    def data_to_json(self, data, file_name: str):
+    def data_to_json(self, data : list, file_name: str) -> bool:
         import json
         try :
             with open(f"data/{file_name}", "w") as f:
@@ -113,7 +113,7 @@ class App():
             return False
         return True
 
-    def is_number_valid(self,number) :
+    def is_number_valid(self,number : str) -> bool:
         carracters_speciaux = [".", "&", "!", "@", "$", "%", "^", "*", "(", ")", "_", "-", "+", "=", "{", "}", "[", "]", "|", "\\", ":", ";", "'", '"', "<", ">", ",", "?", "/", " "]
         have_digit = False
         if not str(number).isupper() :
@@ -132,7 +132,7 @@ class App():
             return False
         return True
 
-    def is_first_name_valid(self, first_name):
+    def is_first_name_valid(self, first_name : str) -> bool:
         if len(str(first_name)) < 3 :
             return False
         if  str(first_name[0]).isdigit() :
@@ -145,7 +145,7 @@ class App():
             return False
         return True
 
-    def is_last_name_valid(self, last_name):
+    def is_last_name_valid(self, last_name : str) -> bool:
         if len(str(last_name)) < 2 :
             return False
         if  str(last_name[0]).isdigit() :
@@ -160,14 +160,10 @@ class App():
     
     def split_date(self, date: str) -> list:
         date.strip()
-        
-        date = date.replace("-", "/")
-        date = date.replace(":", "/")
-        date = date.replace(",", "/")
-        date = date.replace(".", "/")
-        date = date.replace("|", "/")
-        date = date.replace("_", "/")
-        date = date.replace(" ", "/")
+        to_replace = ["-", ":", ",", ".", "|", "_", " "]
+        for car in date :
+            if car in to_replace:
+                date = date.replace(car, "/")
         date = date.split('/')
         return date
 
@@ -192,7 +188,7 @@ class App():
             return False
         return True
 
-    def format_date(self, date):
+    def format_date(self, date : str) -> str:
         date_month_digit = get_date_month_digit()
         splited_date_list =self.split_date(date)
         
@@ -220,7 +216,7 @@ class App():
         date = str(jour) + "/" + str(mois) + "/" + str(annee)
         return date
 
-    def is_class_valid(self, classe):
+    def is_class_valid(self, classe: str)-> bool:
         classe = classe.strip()
         grades = ["6", "5", "3", "4"]
         lettres = ["A","B", "C", "D"]
@@ -231,8 +227,8 @@ class App():
         if classe[-1].upper() not in lettres:
             return False
         return True
-    
-    def format_classe(self, classe):
+
+    def format_classe(self, classe : str) -> str:
         classe = classe.strip()
         if len(classe) > 2:
             s = classe[0]
@@ -285,18 +281,15 @@ class App():
         option = input("Veuillez choisir une option : ")
         return option
 
-    def display_note(self, matiere):
+    def display_note(self, matiere: dict):
         try :
-            devoir = matiere["devoir"]
-            exam = matiere["exam"]
             moyenne = matiere["moyenne"]
-            notes = f"{int(devoir)}-{int(exam)}-{int(moyenne)}"
             print(f"{moyenne:10.2f}" ,end=" | \t")
         except Exception:
             empty = ""
             print(f"{empty:10}" ,end=" | \t")
 
-    def display_info(self, data):
+    def display_info(self, data : list):
         tabs = ["Numero", "Penom", "Nom", "Classe", "Date" , "Francais", "Anglais", "Maths", "PC", "SVT", "HG" , "MG"]
         if len(data) == 0 :
             print()
@@ -344,19 +337,21 @@ class App():
             print('')
             print("-"*172)
         print()
+        print(f"shape ({len(data)}, {len(tabs)})")
+        print()
 
     def search_by_num(self, data : list) -> list:
-        num = input("Veuillez saisir le numero de l'etudiant a rechercher : ")
+        num = input("\nVeuillez saisir le numero de l'etudiant a rechercher : ")
         result = []
         for element in data :
             if num.upper() == element["Numero"].upper():
                 result.append(element)
         return result
 
-    def calcul_moyenne(self, moyenne_devoir, note_exam, ):
+    def calcul_moyenne(self, moyenne_devoir, note_exam, ) -> float:
         moyenne = (moyenne_devoir + 2 * float(note_exam) ) / 3
         return moyenne
-    
+
     def get_notes(self) -> dict :
         devoir_francais = get_int("\nMoyenne du devoir en francais (0 si pas de note): ", limit=20, ispositif=True)
         exam_francais = get_int("\nNote exam du devoir en francais (0 si pas de note): ", limit=20, ispositif=True)
@@ -412,7 +407,7 @@ class App():
                 "moyenne_general" : moyenne_general
         }
         return notes
-    
+
     def get_num(self) -> str:
         while True :
             num = input("\nEntrer le numero de l'etudiant : ")
@@ -421,7 +416,7 @@ class App():
             else :
                 print("\nNumero invalide reesayer")
         return num
-    
+
     def get_first_name(self) -> str:
         while True :
             prenom = input("\nEntrer le prenom de l'etudiant : ")
@@ -430,7 +425,7 @@ class App():
             else :
                 print("\nPrenom invalide reesayer")
         return prenom
-    
+
     def get_last_name(self) -> str:
         while True :
             nom = input("\nEntrer le nom de l'etudiant : ")
@@ -458,11 +453,10 @@ class App():
                 print("\nDate invalide reesayer")
         return date
 
-    def get_inforamtion(self) -> dict | None:
-        print("\nSi vous souhaiter arreter le saisi, appuiyer 0")
+    def get_inforamtion(self) -> dict :
         num = self.get_num()
-        nom = self.get_last_name()
         prenom = self.get_first_name()
+        nom = self.get_last_name()
         classe = self.get_classe()
         date = self.get_date()
         notes = self.get_notes()
@@ -478,8 +472,6 @@ class App():
                 }
         return new_data
 
-    
-
     def add_informations(self):
         data = self.get_inforamtion()
         self.get_data()
@@ -487,9 +479,8 @@ class App():
         self.valid_data.append(data)
         self.data_to_json(self.data, "data.json")
         self.data_to_json(self.valid_data, "valid_data.json")
-    
-    
-    def five_first(self):
+
+    def five_first(self) -> list:
         sorted_data = sorted(self.valid_data, key=lambda x: x["Notes"]["moyenne_general"], reverse=True)
         first_five = sorted_data[:5]
         return first_five
@@ -516,7 +507,7 @@ class App():
             print(col , end=", " )
         print()
         return invalid_colums
-    
+
     def set_modifiactions(self, invalid_cols : list, line : dict):
         prenom = line["Prenom"]
         nom = line["Nom"]
@@ -532,8 +523,10 @@ class App():
             nom = self.get_last_name()
         if "Classe" in invalid_cols :
             classe = self.get_classe()
+            classe=  self.format_classe()
         if "Date_naissane" in invalid_cols:
             date = self.get_date()
+            date = self.format_date(date)
         i = -1
         print()
         for data in self.invalid_data :
@@ -545,10 +538,9 @@ class App():
                 data["Classe"] = classe
                 data["Date_naissane"] = date
                 self.valid_data.append(data)
-                print(data)
+
                 del self.invalid_data[i]
-        
-    
+
     def modif_invalid_inf(self) : 
         data = self.search_by_num(self.invalid_data)
         if len(data) > 0 :
@@ -559,11 +551,12 @@ class App():
 
         else :
             print("\nCette Etudiant n'existe pas ou contient des informations invalides ! ")
-    
+
     def run(self):
         os.system("clear")
         self.set_invalid_and_valid()
         while True :
+            # self.display_info(self.data)
             option = self.display_menu()
             if option == "1":
                 self.display_info(self.valid_data)
@@ -586,7 +579,3 @@ class App():
                 break
             else :
                 print("Option non valide")
-
-
-
-def d()-> dict : ...
