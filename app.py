@@ -523,7 +523,7 @@ class App():
             nom = self.get_last_name()
         if "Classe" in invalid_cols :
             classe = self.get_classe()
-            classe=  self.format_classe()
+            classe=  self.format_classe(classe)
         if "Date_naissane" in invalid_cols:
             date = self.get_date()
             date = self.format_date(date)
