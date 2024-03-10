@@ -2,6 +2,7 @@ from utils import get_date_month_digit, display_menu, get_int, get_str
 import pandas as pd
 import os
 
+
 class App():
 
     def __init__(self) -> None:
@@ -53,7 +54,6 @@ class App():
             nom_matier = nom_matier.replace('Science_Physique', "PC")
             nom_matier = nom_matier.replace('Français', "Francais")
             nom_matier = nom_matier.replace('rançais', "Francais")
-            # notes[nom_matier.upper()] = {}
             notes[nom_matier.upper()]["devoir"] = sum_note_devoir
             notes[nom_matier.upper()]["exam"] = float(note_exam)
             notes[nom_matier.upper()]["moyenne"] = moyenne
