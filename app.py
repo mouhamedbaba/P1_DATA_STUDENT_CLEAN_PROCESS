@@ -1,5 +1,4 @@
-from utils import get_date_month_digit, display_menu, get_int, get_str
-import pandas as pd
+from utils import get_date_month_digit, display_menu, get_int
 import os
 
 
@@ -191,8 +190,7 @@ class App():
     def format_date(self, date : str) -> str:
         date_month_digit = get_date_month_digit()
         splited_date_list =self.split_date(date)
-        
-        
+
 
         if len(splited_date_list[0]) == 1:
             splited_date_list[0] = "0" + splited_date_list[0]
@@ -237,8 +235,6 @@ class App():
         return classe
 
     def set_invalid_and_valid(self):
-        cont_num_val = 0
-        cont_num_inval = 0
         self.get_data()
         for element in self.data :
             is_first_name_valide = self.is_first_name_valid(element['Prenom'])
@@ -253,16 +249,14 @@ class App():
                 element["Classe"] = formated_classe
                 
                 self.valid_data.append(element)
-                cont_num_val += 1
             else :
                 self.invalid_data.append(element)
-                cont_num_inval +=1
         self.data_to_json(self.invalid_data, "invalid_data.json")
         self.data_to_json(self.valid_data, "valid_data.json")
         self.data_to_json(self.data, "data.json")
         print()
-        print(f"-----------> {cont_num_inval:5} invalides" )
-        print(f"-----------> {cont_num_val:5} valides" )
+        print(f"-----------> {len(self.invalid_data):5} invalides" )
+        print(f"-----------> {len(self.valid_data):5} valides" )
         print(f"-----------> {len(self.data):5} au total" )
 
     def display_menu(self) -> str:
@@ -273,7 +267,9 @@ class App():
             "4" : "Afficher les 5 premiers" ,
             "5" : "Ajouter une information",
             "6" : "Modifier une information",
-            "7" : "Netoyer le Terminal",
+            "7" : "Paginer par 5",
+            "8" : "Donner un Nombre pour paginer",
+            "9" : "Netoyer le Terminal",
             "0" : "Sortir"
         }
         display_menu(menu, ul_dec="")
@@ -290,24 +286,24 @@ class App():
             print(f"{empty:10}" ,end=" | \t")
 
     def display_info(self, data : list):
-        tabs = ["Numero", "Penom", "Nom", "Classe", "Date" , "Francais", "Anglais", "Maths", "PC", "SVT", "HG" , "MG"]
+        tabs = ["Numero", "Penom", "Nom", "Classe", "Date" , "Francais", "Anglais", "Maths", "PC", "SVT", "HG" , "Moyenne"]
         if len(data) == 0 :
             print()
-            print("-"*172)
+            print("-"*188)
             for tab in tabs :
                 print(f"{tab:10}" ,end=" | \t") 
             print('')
-            print("-"*172)
+            print("-"*188)
             print("\t\t\t\t \t\t\t\t\t  PAS DE DONNES TROUVE  ",  end="\t\t\t\t\t\t\t\t\t   |")
             print()
-            print("-"*172)
+            print("-"*188)
             return
         print()
-        print("-"*172)
+        print("-"*188)
         for tab in tabs :
             print(f"{tab:10}" ,end=" | \t") 
         print('')
-        print("-"*172)
+        print("-"*188)
         for element in data:
             first_name = element["Prenom"]
             last_name = element["Nom"]
@@ -335,7 +331,7 @@ class App():
             self.display_note(hg)
             print(f"{mg:10.2f}" ,end=" | \t")
             print('')
-            print("-"*172)
+            print("-"*188)
         print()
         print(f"shape ({len(data)}, {len(tabs)})")
         print()
@@ -552,6 +548,35 @@ class App():
         else :
             print("\nCette Etudiant n'existe pas ou contient des informations invalides ! ")
 
+    def paginate(self, fixed_max_h : int = 5):
+        min_l = 0
+        max_l = fixed_max_h
+        data = self.valid_data[:]
+        while True:
+            os.system("clear")
+            data_to_display = data[min_l:max_l]
+            self.display_info(data_to_display)
+            print(f"{max_l if max_l < len(data) else len(data)} / {len(data)}")
+            print()
+            if max_l <= len(data) :
+                print("1 : Suivant")
+            if  min_l > 0 :
+                print("2 : Precedant")
+            print("0 : Sortir de la pagination")
+            print()
+            option = input("Option : ")
+            if option == "1" and max_l <= len(data):
+                min_l = max_l
+                max_l += fixed_max_h
+            elif option == "2" and  min_l > 0 :
+                    max_l = min_l
+                    min_l -= fixed_max_h
+            elif option == "0":
+                os.system("clear")
+                break
+            else :
+                print("Option non valide")
+
     def run(self):
         os.system("clear")
         self.set_invalid_and_valid()
@@ -573,9 +598,15 @@ class App():
             elif option == "6": 
                 self.modif_invalid_inf()
             elif option == "7":
+                self.paginate()
+            elif option == "8":
+                fix_max_l = get_int("\nVeillez entrer le nombre de ligne que vous voulez paginer : ")
+                self.paginate(fixed_max_h=fix_max_l)
+            elif option == "9":
                 os.system("clear")
             elif option == "0":
                 print("AU REVOIR")
                 break
             else :
                 print("Option non valide")
+

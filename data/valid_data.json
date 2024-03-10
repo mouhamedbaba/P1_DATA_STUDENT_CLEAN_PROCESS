@@ -4160,47 +4160,5 @@
             "HG": {},
             "moyenne_general": 4.9907407407407405
         }
-    },
-    {
-        "id": 212,
-        "Code": "BNT021",
-        "Numero": "123456F",
-        "Nom": "Lamotte",
-        "Prenom": "Mouhamed",
-        "Date_naissane": "21/04/04",
-        "Classe": "3iemeB",
-        "Notes": {
-            "FRANCAIS": {
-                "devoir": 0,
-                "exam": 0,
-                "moyenne": 0.0
-            },
-            "ANGLAIS": {
-                "devoir": 0,
-                "exam": 0,
-                "moyenne": 0.0
-            },
-            "MATH": {
-                "devoir": 0,
-                "exam": 0,
-                "moyenne": 0.0
-            },
-            "SVT": {
-                "devoir": 0,
-                "exam": 0,
-                "moyenne": 0.0
-            },
-            "PC": {
-                "devoir": 0,
-                "exam": 0,
-                "moyenne": 0.0
-            },
-            "HG": {
-                "devoir": 0,
-                "exam": 0,
-                "moyenne": 0.0
-            },
-            "moyenne_general": 0.0
-        }
     }
 ]
