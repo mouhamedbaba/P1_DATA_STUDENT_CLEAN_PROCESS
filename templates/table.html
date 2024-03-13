@@ -1,0 +1,28 @@
+<table class="w-full table-auto text-sm" aria-describedby="students">
+    <thead>
+        <tr class="bg-slate-800 text-slate-100">
+            <th class="px-4 py-2">ID</th>
+            <th class="px-4 py-2">Numéro</th>
+            <th class="px-4 py-2">Prénom</th>
+            <th class="px-4 py-2">Nom</th>
+            <th class="px-4 py-2">Date de naissance</th>
+            <th class="px-4 py-2">Mathématiques</th>
+            <th class="px-4 py-2">Français</th>
+            <th class="px-4 py-2">Histoire</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for student in students %}
+        <tr class="{{ 'bg-slate-100' if loop.index is even else 'bg-slate-300' }}">
+            <td class="px-4 py-2 text-center">{{ student["id"] }}</td>
+            <td class="px-4 py-2 text-center">{{ student["Numero"] }}</td>
+            <td class="px-4 py-2 text-center">{{ student["Prenom"] }}</td>
+            <td class="px-4 py-2 text-center">{{ student["Nom"] }}</td>
+            <td class="px-4 py-2 text-center">{{ student["Date_naissane"] }}</td>
+            <td class="px-4 py-2 text-center">{{ student["Notes"]["FRANCAIS"]["moyenne"] | round(2) }}</td>
+            <td class="px-4 py-2 text-center">{{ student["Notes"]["ANGLAIS"]["moyenne"] | round(2) }}</td>
+            <td class="px-4 py-2 text-center">{{ student["Notes"]["MATH"]["moyenne"] | round(2) }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

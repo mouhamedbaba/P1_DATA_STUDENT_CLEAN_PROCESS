@@ -1,15 +1,14 @@
 from utils import get_date_month_digit, display_menu, get_int
 import os
-
+import csv
 
 class App():
-
     def __init__(self) -> None:
         self.data = []
         self.valid_data = []
         self.invalid_data = []
 
-    def format_note(self, matiers : str) -> dict:
+    def format_note(self,matiers : str) -> dict:
         notes = {
             "FRANCAIS" : {},
             "ANGLAIS" : {},
@@ -18,10 +17,16 @@ class App():
             "PC" : {},
             "HG" : {}
         }
+        
         matiers = matiers.replace('"', "")
+        matiers = matiers.replace(" ", "")
         if matiers[-1] != "]":
             matiers += "]"
         matiers = matiers.split("#")
+        for i in range(len(matiers)) :
+            if matiers[i] == "" or matiers[i] == "]":
+                del matiers[i]
+        
         moyenne_general = 0
         for matier in matiers :
             nom_matier = ""
@@ -39,37 +44,61 @@ class App():
             notes_devoir = notes_matieres[0]
             notes_devoir = notes_devoir.split("|")
             sum_note_devoir = 0
+            formated_note_devoir = []
             for note in notes_devoir :
                 note = note.replace(",", ".")
-                sum_note_devoir = sum_note_devoir + float(note)
+                note = note.replace(" ", "")
+                if note != "" :
+                    formated_note_devoir.append(float(note))
+                    note = float(note)
+                    sum_note_devoir = sum_note_devoir + note
             moyenne_devoir = sum_note_devoir / len(notes_devoir)
             note_exam = 0
             if len(notes_matieres) == 2 :
                 note_exam = notes_matieres[1]
-            moyenne = (moyenne_devoir + 2 * float(note_exam) ) / 3
+                # print(note_exam)
+            if note_exam != "" :
+                note_exam = float(note_exam)
+            moyenne = (moyenne_devoir + 2 * note_exam ) / 3
                 
             nom_matier = nom_matier.strip()
             nom_matier = nom_matier.replace('"', "")
             nom_matier = nom_matier.replace('Science_Physique', "PC")
-            nom_matier = nom_matier.replace('Français', "Francais")
-            nom_matier = nom_matier.replace('rançais', "Francais")
-            notes[nom_matier.upper()]["devoir"] = sum_note_devoir
-            notes[nom_matier.upper()]["exam"] = float(note_exam)
-            notes[nom_matier.upper()]["moyenne"] = moyenne
+            nom_matier = nom_matier.replace('FRANÇAIS', "FRANCAIS")
+            nom_matier = nom_matier.replace('ç', "c")
+            nom_matier = nom_matier.replace('cc', "c")
+            if nom_matier == "rancais" :
+                nom_matier = "FRANCAIS"
+            nom_matier = nom_matier.upper()
+            notes[nom_matier]["devoir"] = formated_note_devoir
+            notes[nom_matier]["exam"] = note_exam
+            notes[nom_matier]["moyenne"] = moyenne
             moyenne_general += moyenne
         moyenne_general /= 6
         notes["moyenne_general"] = moyenne_general
         return notes
 
+    
+    def is_note_valide(self, notes: dict) -> bool : 
+        if notes["moyenne_general"] < 1 :
+            return False
+        return True
+
     def get_data(self):
+        cont = 0 
         try :
             with open("data/data.csv", "+r") as file:
+                file = csv.reader(file , delimiter=",")
                 i_id = -1
                 for line in file :
-                    line = line.split(",")
+                    # line = line.split(",")
                     try :
+                        # print(line[6])
                         notes = self.format_note(line[6])
-                    except Exception :
+                    except Exception as e:
+                        # print(cont, "failed ---->" ,{line[6]}, "----->", e)
+                        # print(line[6])
+                        cont += 1
                         notes = {
                             "FRANCAIS" : {},
                             "ANGLAIS" : {},
@@ -242,7 +271,8 @@ class App():
             is_num_valid = self.is_number_valid(element['Numero'])
             is_date_valid = self.is_date_valid(element['Date_naissane'])
             is_class_valid = self.is_class_valid(element["Classe"])
-            if is_first_name_valide and is_last_name_valid and is_date_valid and is_num_valid and is_class_valid:
+            is_notes_vailid = self.is_note_valide(element["Notes"])
+            if is_first_name_valide and is_last_name_valid and is_date_valid and is_num_valid and is_class_valid and is_notes_vailid:
                 formated_date = self.format_date(element['Date_naissane'])
                 formated_classe = self.format_classe(element["Classe"])
                 element['Date_naissane'] = formated_date
@@ -336,11 +366,12 @@ class App():
         print(f"shape ({len(data)}, {len(tabs)})")
         print()
 
-    def search_by_num(self, data : list) -> list:
-        num = input("\nVeuillez saisir le numero de l'etudiant a rechercher : ")
+    def search_by_num(self, data : list, num : str) -> list:
+        # num = input("\nVeuillez saisir le numero de l'etudiant a rechercher : ")
         result = []
         for element in data :
             if num.upper() == element["Numero"].upper():
+                print(element["Nom"] , " " , element["Prenom"])
                 result.append(element)
         return result
 
@@ -488,6 +519,7 @@ class App():
         num = line["Numero"]
         classe = line["Classe"]
         date = line["Date_naissane"]
+        notes = line["Notes"]
         if self.is_number_valid(num) == False :
             invalid_colums.append("Numero")
         if self.is_first_name_valid(prenom) == False :
@@ -498,6 +530,8 @@ class App():
             invalid_colums.append("Classe")
         if self.is_date_valid(date) == False :
             invalid_colums.append("Date_naissane")
+        if self.is_note_valide(notes) == False :
+            invalid_colums.append("Notes")
         print("Colone(s) invalide(s) : ------> " , end=" ")
         for col in invalid_colums :
             print(col , end=", " )
@@ -511,6 +545,7 @@ class App():
         num = line["Numero"]
         classe = line["Classe"]
         date = line["Date_naissane"]
+        notes = line["Notes"]
         if "Numero" in invalid_cols :
             num = self.get_num()
         if "Prenom" in invalid_cols :
@@ -523,6 +558,8 @@ class App():
         if "Date_naissane" in invalid_cols:
             date = self.get_date()
             date = self.format_date(date)
+        if "Notes" in invalid_cols:
+            notes = self.get_notes()
         i = -1
         print()
         for data in self.invalid_data :
@@ -533,6 +570,7 @@ class App():
                 data["Nom"] = nom
                 data["Classe"] = classe
                 data["Date_naissane"] = date
+                date["Notes"] = notes
                 self.valid_data.append(data)
 
                 del self.invalid_data[i]
@@ -548,13 +586,13 @@ class App():
         else :
             print("\nCette Etudiant n'existe pas ou contient des informations invalides ! ")
 
-    def paginate(self, fixed_max_h : int = 5):
+    def paginate(self, data_to_copy, fixed_max_h : int = 5):
         min_l = 0
         max_l = fixed_max_h
-        data = self.valid_data[:]
+        data = data_to_copy[:]
         while True:
             os.system("clear")
-            data_to_display = data[min_l:max_l]
+            data_to_display = data[min_l:max_l] 
             self.display_info(data_to_display)
             print(f"{max_l if max_l < len(data) else len(data)} / {len(data)}")
             print()
@@ -609,4 +647,5 @@ class App():
                 break
             else :
                 print("Option non valide")
-
+                
+    
