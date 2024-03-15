@@ -369,10 +369,11 @@ class Manage():
     def search_by_num(self, data : list, num : str) -> list:
         # num = input("\nVeuillez saisir le numero de l'etudiant a rechercher : ")
         result = []
+        num = num.upper()
         for element in data :
-            if num.upper() == element["Numero"].upper():
+            if num in element["Numero"].upper() or num  in element["Prenom"].upper() or num in element["Nom"].upper():
                 result.append(element)
-        return result
+        return result[:10]
 
 #     def calcul_moyenne(self, moyenne_devoir, note_exam, ) -> float:
 #         moyenne = (moyenne_devoir + 2 * float(note_exam) ) / 3
