@@ -57,7 +57,8 @@
                 "moyenne": 16.833333333333332
             },
             "moyenne_general": 11.555555555555555
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 10,
@@ -117,7 +118,8 @@
                 "moyenne": 16.5
             },
             "moyenne_general": 11.333333333333334
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 11,
@@ -177,7 +179,8 @@
                 "moyenne": 14.166666666666666
             },
             "moyenne_general": 12.75
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 12,
@@ -238,7 +241,8 @@
                 "moyenne": 13.666666666666666
             },
             "moyenne_general": 13.975000000000001
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 13,
@@ -298,7 +302,8 @@
                 "moyenne": 14.0
             },
             "moyenne_general": 12.203703703703704
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 14,
@@ -359,7 +364,8 @@
                 "moyenne": 9.333333333333334
             },
             "moyenne_general": 10.807407407407405
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 15,
@@ -420,7 +426,8 @@
                 "moyenne": 12.0
             },
             "moyenne_general": 12.097222222222221
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 16,
@@ -481,7 +488,8 @@
                 "moyenne": 15.0
             },
             "moyenne_general": 13.577407407407406
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 17,
@@ -542,7 +550,8 @@
                 "moyenne": 15.0
             },
             "moyenne_general": 15.495185185185184
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 18,
@@ -601,7 +610,8 @@
                 "moyenne": 9.333333333333334
             },
             "moyenne_general": 11.111111111111112
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 19,
@@ -661,7 +671,8 @@
                 "moyenne": 15.333333333333334
             },
             "moyenne_general": 13.444444444444443
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 20,
@@ -720,7 +731,8 @@
                 "moyenne": 9.333333333333334
             },
             "moyenne_general": 11.75925925925926
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 21,
@@ -780,7 +792,8 @@
                 "moyenne": 12.333333333333334
             },
             "moyenne_general": 21.88888888888889
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 22,
@@ -841,7 +854,8 @@
                 "moyenne": 12.0
             },
             "moyenne_general": 12.097222222222221
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 23,
@@ -901,7 +915,8 @@
                 "moyenne": 14.0
             },
             "moyenne_general": 12.627777777777778
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 24,
@@ -961,7 +976,8 @@
                 "moyenne": 12.333333333333334
             },
             "moyenne_general": 12.1
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 25,
@@ -1022,7 +1038,8 @@
                 "moyenne": 12.0
             },
             "moyenne_general": 12.340277777777777
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 26,
@@ -1082,7 +1099,8 @@
                 "moyenne": 12.0
             },
             "moyenne_general": 12.361111111111112
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 27,
@@ -1142,7 +1160,8 @@
                 "moyenne": 12.333333333333334
             },
             "moyenne_general": 12.1
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 28,
@@ -1203,7 +1222,8 @@
                 "moyenne": 13.0
             },
             "moyenne_general": 13.79138888888889
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 29,
@@ -1263,7 +1283,8 @@
                 "moyenne": 14.0
             },
             "moyenne_general": 12.627777777777778
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 30,
@@ -1323,7 +1344,8 @@
                 "moyenne": 12.666666666666666
             },
             "moyenne_general": 12.905555555555557
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 31,
@@ -1384,7 +1406,8 @@
                 "moyenne": 10.0
             },
             "moyenne_general": 11.777777777777777
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 33,
@@ -1444,7 +1467,8 @@
                 "moyenne": 14.0
             },
             "moyenne_general": 12.627777777777778
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 34,
@@ -1504,7 +1528,8 @@
                 "moyenne": 13.666666666666666
             },
             "moyenne_general": 12.118518518518519
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 35,
@@ -1565,7 +1590,8 @@
                 "moyenne": 15.0
             },
             "moyenne_general": 13.645833333333334
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 36,
@@ -1625,7 +1651,8 @@
                 "moyenne": 12.0
             },
             "moyenne_general": 12.361111111111112
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 37,
@@ -1685,7 +1712,8 @@
                 "moyenne": 10.333333333333334
             },
             "moyenne_general": 11.85
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 38,
@@ -1746,7 +1774,8 @@
                 "moyenne": 6.333333333333333
             },
             "moyenne_general": 11.13861111111111
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 39,
@@ -1807,7 +1836,8 @@
                 "moyenne": 12.333333333333334
             },
             "moyenne_general": 12.840277777777779
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 40,
@@ -1867,7 +1897,8 @@
                 "moyenne": 12.666666666666666
             },
             "moyenne_general": 12.905555555555557
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 43,
@@ -1928,7 +1959,8 @@
                 "moyenne": 8.666666666666666
             },
             "moyenne_general": 10.460185185185184
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 44,
@@ -1989,7 +2021,8 @@
                 "moyenne": 3.6666666666666665
             },
             "moyenne_general": 8.2275
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 46,
@@ -2050,7 +2083,8 @@
                 "moyenne": 14.333333333333334
             },
             "moyenne_general": 9.65462962962963
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 47,
@@ -2111,7 +2145,8 @@
                 "moyenne": 13.0
             },
             "moyenne_general": 9.932407407407409
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 50,
@@ -2172,7 +2207,8 @@
                 "moyenne": 9.666666666666666
             },
             "moyenne_general": 9.26574074074074
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 52,
@@ -2232,7 +2268,8 @@
                 "moyenne": 15.166666666666666
             },
             "moyenne_general": 15.055555555555555
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 53,
@@ -2292,7 +2329,8 @@
                 "moyenne": 14.833333333333334
             },
             "moyenne_general": 13.000000000000002
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 54,
@@ -2352,7 +2390,8 @@
                 "moyenne": 16.5
             },
             "moyenne_general": 15.388888888888886
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 55,
@@ -2412,7 +2451,8 @@
                 "moyenne": 16.5
             },
             "moyenne_general": 11.916666666666666
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 63,
@@ -2471,7 +2511,8 @@
                 "moyenne": 13.333333333333334
             },
             "moyenne_general": 14.08333333333333
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 65,
@@ -2532,7 +2573,8 @@
                 "moyenne": 12.0
             },
             "moyenne_general": 12.097222222222221
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 66,
@@ -2593,7 +2635,8 @@
                 "moyenne": 13.333333333333334
             },
             "moyenne_general": 14.518518518518519
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 68,
@@ -2653,7 +2696,8 @@
                 "moyenne": 16.5
             },
             "moyenne_general": 11.333333333333334
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 69,
@@ -2713,7 +2757,8 @@
                 "moyenne": 14.0
             },
             "moyenne_general": 12.627777777777778
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 70,
@@ -2773,7 +2818,8 @@
                 "moyenne": 16.333333333333332
             },
             "moyenne_general": 15.157407407407407
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 71,
@@ -2834,7 +2880,8 @@
                 "moyenne": 13.333333333333334
             },
             "moyenne_general": 14.518518518518519
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 83,
@@ -2894,7 +2941,8 @@
                 "moyenne": 12.666666666666666
             },
             "moyenne_general": 12.611111111111112
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 84,
@@ -2954,7 +3002,8 @@
                 "moyenne": 16.5
             },
             "moyenne_general": 11.333333333333334
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 85,
@@ -3015,7 +3064,8 @@
                 "moyenne": 15.0
             },
             "moyenne_general": 15.495185185185184
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 86,
@@ -3076,7 +3126,8 @@
                 "moyenne": 12.0
             },
             "moyenne_general": 12.097222222222221
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 87,
@@ -3136,7 +3187,8 @@
                 "moyenne": 16.5
             },
             "moyenne_general": 11.333333333333334
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 88,
@@ -3198,7 +3250,8 @@
                 "moyenne": 4.0
             },
             "moyenne_general": 11.379629629629628
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 89,
@@ -3260,7 +3313,8 @@
                 "moyenne": 4.0
             },
             "moyenne_general": 11.25
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 90,
@@ -3320,7 +3374,8 @@
                 "moyenne": 16.5
             },
             "moyenne_general": 11.333333333333334
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 91,
@@ -3380,7 +3435,8 @@
                 "moyenne": 2.5
             },
             "moyenne_general": 15.805555555555555
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 92,
@@ -3440,7 +3496,8 @@
                 "moyenne": 14.666666666666666
             },
             "moyenne_general": 13.361111111111112
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 93,
@@ -3500,7 +3557,8 @@
                 "moyenne": 12.333333333333334
             },
             "moyenne_general": 12.0
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 94,
@@ -3560,7 +3618,8 @@
                 "moyenne": 10.666666666666666
             },
             "moyenne_general": 13.611111111111112
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 95,
@@ -3620,7 +3679,8 @@
                 "moyenne": 11.5
             },
             "moyenne_general": 14.0
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 96,
@@ -3680,7 +3740,8 @@
                 "moyenne": 15.5
             },
             "moyenne_general": 12.805555555555557
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 97,
@@ -3740,7 +3801,8 @@
                 "moyenne": 13.833333333333334
             },
             "moyenne_general": 14.805555555555555
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 99,
@@ -3800,7 +3862,8 @@
                 "moyenne": 13.5
             },
             "moyenne_general": 14.0
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 100,
@@ -3860,7 +3923,8 @@
                 "moyenne": 11.833333333333334
             },
             "moyenne_general": 14.444444444444443
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 101,
@@ -3920,7 +3984,8 @@
                 "moyenne": 16.333333333333332
             },
             "moyenne_general": 14.638888888888888
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 104,
@@ -3982,7 +4047,8 @@
                 "moyenne": 4.0
             },
             "moyenne_general": 11.268518518518519
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 109,
@@ -4044,7 +4110,8 @@
                 "moyenne": 4.0
             },
             "moyenne_general": 11.361111111111109
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 125,
@@ -4104,7 +4171,8 @@
                 "moyenne": 12.333333333333334
             },
             "moyenne_general": 12.1
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 126,
@@ -4165,7 +4233,8 @@
                 "moyenne": 10.0
             },
             "moyenne_general": 11.777777777777777
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 127,
@@ -4226,7 +4295,8 @@
                 "moyenne": 10.0
             },
             "moyenne_general": 11.777777777777777
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 128,
@@ -4288,7 +4358,8 @@
                 "moyenne": 14.0
             },
             "moyenne_general": 12.835925925925928
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 129,
@@ -4349,7 +4420,8 @@
                 "moyenne": 12.0
             },
             "moyenne_general": 12.097222222222221
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 131,
@@ -4410,7 +4482,8 @@
                 "moyenne": 13.0
             },
             "moyenne_general": 13.221944444444444
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 132,
@@ -4470,7 +4543,8 @@
                 "moyenne": 16.5
             },
             "moyenne_general": 11.333333333333334
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 133,
@@ -4530,7 +4604,8 @@
                 "moyenne": 16.5
             },
             "moyenne_general": 11.333333333333334
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 134,
@@ -4590,7 +4665,8 @@
                 "moyenne": 16.5
             },
             "moyenne_general": 11.333333333333334
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 135,
@@ -4650,7 +4726,8 @@
                 "moyenne": 16.5
             },
             "moyenne_general": 11.333333333333334
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 136,
@@ -4710,7 +4787,8 @@
                 "moyenne": 16.5
             },
             "moyenne_general": 11.333333333333334
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 137,
@@ -4770,7 +4848,8 @@
                 "moyenne": 16.5
             },
             "moyenne_general": 11.333333333333334
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 138,
@@ -4830,7 +4909,8 @@
                 "moyenne": 16.5
             },
             "moyenne_general": 11.333333333333334
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 139,
@@ -4890,7 +4970,8 @@
                 "moyenne": 16.5
             },
             "moyenne_general": 11.333333333333334
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 140,
@@ -4950,7 +5031,8 @@
                 "moyenne": 16.5
             },
             "moyenne_general": 11.333333333333334
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 162,
@@ -5003,7 +5085,8 @@
             },
             "HG": {},
             "moyenne_general": 10.305555555555557
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 163,
@@ -5053,7 +5136,8 @@
                 "moyenne": 13.5
             },
             "moyenne_general": 12.388888888888888
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 164,
@@ -5110,7 +5194,8 @@
                 "moyenne": 10.166666666666666
             },
             "moyenne_general": 14.083333333333334
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 165,
@@ -5161,7 +5246,8 @@
                 "moyenne": 13.833333333333334
             },
             "moyenne_general": 11.944444444444445
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 166,
@@ -5212,7 +5298,8 @@
                 "moyenne": 15.166666666666666
             },
             "moyenne_general": 11.833333333333334
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 167,
@@ -5265,7 +5352,8 @@
             },
             "HG": {},
             "moyenne_general": 10.055555555555555
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 168,
@@ -5325,7 +5413,8 @@
                 "moyenne": 10.833333333333334
             },
             "moyenne_general": 13.611111111111109
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 169,
@@ -5378,7 +5467,8 @@
             },
             "HG": {},
             "moyenne_general": 10.638888888888888
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 170,
@@ -5428,7 +5518,8 @@
                 "moyenne": 16.0
             },
             "moyenne_general": 12.722222222222221
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 171,
@@ -5488,7 +5579,8 @@
                 "moyenne": 13.666666666666666
             },
             "moyenne_general": 15.722222222222221
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 172,
@@ -5548,7 +5640,8 @@
                 "moyenne": 14.333333333333334
             },
             "moyenne_general": 12.870370370370372
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 173,
@@ -5608,7 +5701,8 @@
                 "moyenne": 10.666666666666666
             },
             "moyenne_general": 10.249999999999998
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 174,
@@ -5668,7 +5762,8 @@
                 "moyenne": 10.666666666666666
             },
             "moyenne_general": 9.898148148148147
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 175,
@@ -5726,7 +5821,8 @@
                 "moyenne": 11.666666666666666
             },
             "moyenne_general": 11.944444444444443
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 176,
@@ -5787,7 +5883,8 @@
                 "moyenne": 13.0
             },
             "moyenne_general": 13.221944444444444
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 177,
@@ -5849,7 +5946,8 @@
                 "moyenne": 10.0
             },
             "moyenne_general": 12.041666666666666
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 178,
@@ -5908,7 +6006,8 @@
                 "moyenne": 13.333333333333334
             },
             "moyenne_general": 12.129629629629632
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 179,
@@ -5967,7 +6066,8 @@
                 "moyenne": 12.666666666666666
             },
             "moyenne_general": 11.611111111111112
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 180,
@@ -6027,7 +6127,8 @@
                 "moyenne": 11.666666666666666
             },
             "moyenne_general": 12.5
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 181,
@@ -6088,7 +6189,8 @@
                 "moyenne": 10.0
             },
             "moyenne_general": 11.777777777777777
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 182,
@@ -6149,7 +6251,8 @@
                 "moyenne": 12.0
             },
             "moyenne_general": 12.097222222222221
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 183,
@@ -6210,7 +6313,8 @@
                 "moyenne": 15.333333333333334
             },
             "moyenne_general": 12.337499999999999
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 184,
@@ -6271,7 +6375,8 @@
                 "moyenne": 17.333333333333332
             },
             "moyenne_general": 13.277777777777779
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 185,
@@ -6332,7 +6437,8 @@
                 "moyenne": 16.666666666666668
             },
             "moyenne_general": 14.486111111111112
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 186,
@@ -6393,7 +6499,8 @@
                 "moyenne": 15.333333333333334
             },
             "moyenne_general": 12.337499999999999
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 187,
@@ -6454,7 +6561,8 @@
                 "moyenne": 16.666666666666668
             },
             "moyenne_general": 13.137314814814815
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 188,
@@ -6515,7 +6623,8 @@
                 "moyenne": 14.333333333333334
             },
             "moyenne_general": 10.396574074074076
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 189,
@@ -6576,7 +6685,8 @@
                 "moyenne": 15.333333333333334
             },
             "moyenne_general": 12.999537037037037
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 190,
@@ -6637,7 +6747,8 @@
                 "moyenne": 10.333333333333334
             },
             "moyenne_general": 12.62861111111111
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 191,
@@ -6698,7 +6809,8 @@
                 "moyenne": 15.333333333333334
             },
             "moyenne_general": 12.337499999999999
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 192,
@@ -6758,7 +6870,8 @@
                 "moyenne": 12.333333333333334
             },
             "moyenne_general": 11.287037037037038
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 193,
@@ -6820,7 +6933,8 @@
                 "moyenne": 14.0
             },
             "moyenne_general": 12.835925925925928
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 194,
@@ -6881,7 +6995,8 @@
                 "moyenne": 12.333333333333334
             },
             "moyenne_general": 12.21111111111111
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 195,
@@ -6940,7 +7055,8 @@
                 "moyenne": 12.0
             },
             "moyenne_general": 12.347222222222221
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 196,
@@ -7001,7 +7117,8 @@
                 "moyenne": 12.0
             },
             "moyenne_general": 12.097222222222221
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 197,
@@ -7061,7 +7178,8 @@
                 "moyenne": 12.333333333333334
             },
             "moyenne_general": 11.266666666666666
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 199,
@@ -7124,7 +7242,8 @@
                 "moyenne": 11.666666666666666
             },
             "moyenne_general": 13.701388888888888
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 200,
@@ -7184,7 +7303,8 @@
                 "moyenne": 14.0
             },
             "moyenne_general": 12.631944444444443
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 201,
@@ -7246,6 +7366,7 @@
                 "moyenne": 10.0
             },
             "moyenne_general": 12.157407407407407
-        }
+        },
+        "Invalid_colums": []
     }
 ]

@@ -1,0 +1,22 @@
+# Fichiers Python compilés
+*.pyc
+
+# Fichiers de cache
+__pycache__
+
+# Répertoire virtuel
+venv/
+
+# Fichiers d'installation
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Fichiers de sauvegarde
+*.bak
+*.swp
+*~
+
+# Fichiers de logs
+*.log

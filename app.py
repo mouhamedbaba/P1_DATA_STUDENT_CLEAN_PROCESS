@@ -4,10 +4,15 @@ import csv
 
 class App():
     def __init__(self) -> None:
+        """
+        Constructeur pour initialiser la classe avec des listes vides pour data, valid_data et invalid_data.
+        """
         self.data = []
         self.valid_data = []
         self.invalid_data = []
 
+    def extract_notes(self, matiers):  ...
+    
     def format_note(self,matiers : str) -> dict:
         notes = {
             "FRANCAIS" : {},
@@ -78,7 +83,6 @@ class App():
         notes["moyenne_general"] = moyenne_general
         return notes
 
-    
     def is_note_valide(self, notes: dict) -> bool : 
         if notes["moyenne_general"] < 1 :
             return False
@@ -266,18 +270,14 @@ class App():
     def set_invalid_and_valid(self):
         self.get_data()
         for element in self.data :
-            is_first_name_valide = self.is_first_name_valid(element['Prenom'])
-            is_last_name_valid = self.is_last_name_valid(element['Nom'])
-            is_num_valid = self.is_number_valid(element['Numero'])
-            is_date_valid = self.is_date_valid(element['Date_naissane'])
-            is_class_valid = self.is_class_valid(element["Classe"])
-            is_notes_vailid = self.is_note_valide(element["Notes"])
-            if is_first_name_valide and is_last_name_valid and is_date_valid and is_num_valid and is_class_valid and is_notes_vailid:
+            element["Invalid_colums"] = self.get_invalid_cols(element)
+            invalid_cols = element["Invalid_colums"]
+            
+            if len(invalid_cols) == 0:
                 formated_date = self.format_date(element['Date_naissane'])
                 formated_classe = self.format_classe(element["Classe"])
                 element['Date_naissane'] = formated_date
                 element["Classe"] = formated_classe
-                
                 self.valid_data.append(element)
             else :
                 self.invalid_data.append(element)
@@ -371,7 +371,6 @@ class App():
         result = []
         for element in data :
             if num.upper() == element["Numero"].upper():
-                print(element["Nom"] , " " , element["Prenom"])
                 result.append(element)
         return result
 
@@ -501,11 +500,15 @@ class App():
 
     def add_informations(self):
         data = self.get_inforamtion()
+        list_data = []
+        list_data.append(data)
         self.get_data()
         self.data.append(data)
         self.valid_data.append(data)
         self.data_to_json(self.data, "data.json")
         self.data_to_json(self.valid_data, "valid_data.json")
+        print("Etudiant ajouter avec succes")
+        self.display_info(list_data)
 
     def five_first(self) -> list:
         sorted_data = sorted(self.valid_data, key=lambda x: x["Notes"]["moyenne_general"], reverse=True)
@@ -532,10 +535,6 @@ class App():
             invalid_colums.append("Date_naissane")
         if self.is_note_valide(notes) == False :
             invalid_colums.append("Notes")
-        print("Colone(s) invalide(s) : ------> " , end=" ")
-        for col in invalid_colums :
-            print(col , end=", " )
-        print()
         return invalid_colums
 
     def set_modifiactions(self, invalid_cols : list, line : dict):
@@ -581,18 +580,21 @@ class App():
             self.display_info(data)
             line=data[0]
             invalid_cols = self.get_invalid_cols(line)
+            print("Colone(s) invalide(s) : ------> " , end=" ")
+            for col in invalid_cols :
+                print(col , end=", " )
             self.set_modifiactions(invalid_cols, line)
 
         else :
             print("\nCette Etudiant n'existe pas ou contient des informations invalides ! ")
 
-    def paginate(self, data_to_copy, fixed_max_h : int = 5):
+    def paginate(self, fixed_max_h : int = 5):
         min_l = 0
         max_l = fixed_max_h
-        data = data_to_copy[:]
+        data = self.valid_data[:]
         while True:
             os.system("clear")
-            data_to_display = data[min_l:max_l] 
+            data_to_display = data[min_l:max_l]
             self.display_info(data_to_display)
             print(f"{max_l if max_l < len(data) else len(data)} / {len(data)}")
             print()
@@ -626,7 +628,8 @@ class App():
             elif option == "2":
                 self.display_info(self.invalid_data)
             elif option == "3":
-                data = self.search_by_num(self.data)
+                num = input("\nEntrer le numero de l'etudiant : ")
+                data = self.search_by_num(self.data, num)
                 self.display_info(data)
             elif option == "4":
                 result = self.five_first()
@@ -647,5 +650,3 @@ class App():
                 break
             else :
                 print("Option non valide")
-                
-    

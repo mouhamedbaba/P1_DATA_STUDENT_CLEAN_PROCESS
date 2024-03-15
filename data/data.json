@@ -57,7 +57,8 @@
                 "moyenne": 16.833333333333332
             },
             "moyenne_general": 11.555555555555555
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 1,
@@ -117,7 +118,10 @@
                 "moyenne": 16.5
             },
             "moyenne_general": 12.194444444444443
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 2,
@@ -177,7 +181,10 @@
                 "moyenne": 16.833333333333332
             },
             "moyenne_general": 11.361111111111112
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 3,
@@ -237,7 +244,10 @@
                 "moyenne": 11.833333333333334
             },
             "moyenne_general": 10.27777777777778
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 4,
@@ -297,7 +307,10 @@
                 "moyenne": 17.166666666666668
             },
             "moyenne_general": 14.375
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 5,
@@ -357,7 +370,10 @@
                 "moyenne": 16.5
             },
             "moyenne_general": 13.666666666666666
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 6,
@@ -417,7 +433,10 @@
                 "moyenne": 13.833333333333334
             },
             "moyenne_general": 11.111111111111112
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 7,
@@ -477,7 +496,11 @@
                 "moyenne": 12.666666666666666
             },
             "moyenne_general": 12.611111111111112
-        }
+        },
+        "Invalid_colums": [
+            "Numero",
+            "Date_naissane"
+        ]
     },
     {
         "id": 8,
@@ -537,7 +560,10 @@
                 "moyenne": 12.333333333333334
             },
             "moyenne_general": 11.194444444444445
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 9,
@@ -597,7 +623,10 @@
                 "moyenne": 13.333333333333334
             },
             "moyenne_general": 12.638888888888888
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 10,
@@ -657,7 +686,8 @@
                 "moyenne": 16.5
             },
             "moyenne_general": 11.333333333333334
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 11,
@@ -717,7 +747,8 @@
                 "moyenne": 14.166666666666666
             },
             "moyenne_general": 12.75
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 12,
@@ -778,7 +809,8 @@
                 "moyenne": 13.666666666666666
             },
             "moyenne_general": 13.975000000000001
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 13,
@@ -838,7 +870,8 @@
                 "moyenne": 14.0
             },
             "moyenne_general": 12.203703703703704
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 14,
@@ -899,7 +932,8 @@
                 "moyenne": 9.333333333333334
             },
             "moyenne_general": 10.807407407407405
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 15,
@@ -960,7 +994,8 @@
                 "moyenne": 12.0
             },
             "moyenne_general": 12.097222222222221
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 16,
@@ -1021,7 +1056,8 @@
                 "moyenne": 15.0
             },
             "moyenne_general": 13.577407407407406
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 17,
@@ -1082,7 +1118,8 @@
                 "moyenne": 15.0
             },
             "moyenne_general": 15.495185185185184
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 18,
@@ -1141,7 +1178,8 @@
                 "moyenne": 9.333333333333334
             },
             "moyenne_general": 11.111111111111112
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 19,
@@ -1201,7 +1239,8 @@
                 "moyenne": 15.333333333333334
             },
             "moyenne_general": 13.444444444444443
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 20,
@@ -1260,7 +1299,8 @@
                 "moyenne": 9.333333333333334
             },
             "moyenne_general": 11.75925925925926
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 21,
@@ -1320,7 +1360,8 @@
                 "moyenne": 12.333333333333334
             },
             "moyenne_general": 21.88888888888889
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 22,
@@ -1381,7 +1422,8 @@
                 "moyenne": 12.0
             },
             "moyenne_general": 12.097222222222221
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 23,
@@ -1441,7 +1483,8 @@
                 "moyenne": 14.0
             },
             "moyenne_general": 12.627777777777778
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 24,
@@ -1501,7 +1544,8 @@
                 "moyenne": 12.333333333333334
             },
             "moyenne_general": 12.1
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 25,
@@ -1562,7 +1606,8 @@
                 "moyenne": 12.0
             },
             "moyenne_general": 12.340277777777777
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 26,
@@ -1622,7 +1667,8 @@
                 "moyenne": 12.0
             },
             "moyenne_general": 12.361111111111112
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 27,
@@ -1682,7 +1728,8 @@
                 "moyenne": 12.333333333333334
             },
             "moyenne_general": 12.1
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 28,
@@ -1743,7 +1790,8 @@
                 "moyenne": 13.0
             },
             "moyenne_general": 13.79138888888889
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 29,
@@ -1803,7 +1851,8 @@
                 "moyenne": 14.0
             },
             "moyenne_general": 12.627777777777778
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 30,
@@ -1863,7 +1912,8 @@
                 "moyenne": 12.666666666666666
             },
             "moyenne_general": 12.905555555555557
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 31,
@@ -1924,7 +1974,8 @@
                 "moyenne": 10.0
             },
             "moyenne_general": 11.777777777777777
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 32,
@@ -1985,7 +2036,10 @@
                 "moyenne": 12.0
             },
             "moyenne_general": 12.097222222222221
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 33,
@@ -2045,7 +2099,8 @@
                 "moyenne": 14.0
             },
             "moyenne_general": 12.627777777777778
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 34,
@@ -2105,7 +2160,8 @@
                 "moyenne": 13.666666666666666
             },
             "moyenne_general": 12.118518518518519
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 35,
@@ -2166,7 +2222,8 @@
                 "moyenne": 15.0
             },
             "moyenne_general": 13.645833333333334
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 36,
@@ -2226,7 +2283,8 @@
                 "moyenne": 12.0
             },
             "moyenne_general": 12.361111111111112
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 37,
@@ -2286,7 +2344,8 @@
                 "moyenne": 10.333333333333334
             },
             "moyenne_general": 11.85
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 38,
@@ -2347,7 +2406,8 @@
                 "moyenne": 6.333333333333333
             },
             "moyenne_general": 11.13861111111111
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 39,
@@ -2408,7 +2468,8 @@
                 "moyenne": 12.333333333333334
             },
             "moyenne_general": 12.840277777777779
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 40,
@@ -2468,7 +2529,8 @@
                 "moyenne": 12.666666666666666
             },
             "moyenne_general": 12.905555555555557
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 41,
@@ -2486,7 +2548,10 @@
             "PC": {},
             "HG": {},
             "moyenne_general": 0
-        }
+        },
+        "Invalid_colums": [
+            "Notes"
+        ]
     },
     {
         "id": 42,
@@ -2547,7 +2612,10 @@
                 "moyenne": 9.666666666666666
             },
             "moyenne_general": 10.886111111111111
-        }
+        },
+        "Invalid_colums": [
+            "Date_naissane"
+        ]
     },
     {
         "id": 43,
@@ -2608,7 +2676,8 @@
                 "moyenne": 8.666666666666666
             },
             "moyenne_general": 10.460185185185184
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 44,
@@ -2669,7 +2738,8 @@
                 "moyenne": 3.6666666666666665
             },
             "moyenne_general": 8.2275
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 45,
@@ -2730,7 +2800,10 @@
                 "moyenne": 5.666666666666667
             },
             "moyenne_general": 8.608333333333333
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 46,
@@ -2791,7 +2864,8 @@
                 "moyenne": 14.333333333333334
             },
             "moyenne_general": 9.65462962962963
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 47,
@@ -2852,7 +2926,8 @@
                 "moyenne": 13.0
             },
             "moyenne_general": 9.932407407407409
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 48,
@@ -2913,7 +2988,10 @@
                 "moyenne": 15.0
             },
             "moyenne_general": 10.765740740740739
-        }
+        },
+        "Invalid_colums": [
+            "Classe"
+        ]
     },
     {
         "id": 49,
@@ -2974,7 +3052,11 @@
                 "moyenne": 13.0
             },
             "moyenne_general": 10.830555555555554
-        }
+        },
+        "Invalid_colums": [
+            "Numero",
+            "Date_naissane"
+        ]
     },
     {
         "id": 50,
@@ -3035,7 +3117,8 @@
                 "moyenne": 9.666666666666666
             },
             "moyenne_general": 9.26574074074074
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 51,
@@ -3096,7 +3179,10 @@
                 "moyenne": 13.666666666666666
             },
             "moyenne_general": 11.187037037037037
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 52,
@@ -3156,7 +3242,8 @@
                 "moyenne": 15.166666666666666
             },
             "moyenne_general": 15.055555555555555
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 53,
@@ -3216,7 +3303,8 @@
                 "moyenne": 14.833333333333334
             },
             "moyenne_general": 13.000000000000002
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 54,
@@ -3276,7 +3364,8 @@
                 "moyenne": 16.5
             },
             "moyenne_general": 15.388888888888886
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 55,
@@ -3336,7 +3425,8 @@
                 "moyenne": 16.5
             },
             "moyenne_general": 11.916666666666666
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 56,
@@ -3396,7 +3486,10 @@
                 "moyenne": 15.333333333333334
             },
             "moyenne_general": 13.638888888888888
-        }
+        },
+        "Invalid_colums": [
+            "Classe"
+        ]
     },
     {
         "id": 57,
@@ -3456,7 +3549,11 @@
                 "moyenne": 7.333333333333333
             },
             "moyenne_general": 11.611111111111109
-        }
+        },
+        "Invalid_colums": [
+            "Numero",
+            "Classe"
+        ]
     },
     {
         "id": 58,
@@ -3516,7 +3613,10 @@
                 "moyenne": 6.0
             },
             "moyenne_general": 10.166666666666666
-        }
+        },
+        "Invalid_colums": [
+            "Classe"
+        ]
     },
     {
         "id": 59,
@@ -3576,7 +3676,10 @@
                 "moyenne": 9.333333333333334
             },
             "moyenne_general": 12.666666666666666
-        }
+        },
+        "Invalid_colums": [
+            "Classe"
+        ]
     },
     {
         "id": 60,
@@ -3636,7 +3739,10 @@
                 "moyenne": 11.666666666666666
             },
             "moyenne_general": 13.055555555555555
-        }
+        },
+        "Invalid_colums": [
+            "Classe"
+        ]
     },
     {
         "id": 61,
@@ -3696,7 +3802,10 @@
                 "moyenne": 12.0
             },
             "moyenne_general": 13.249999999999998
-        }
+        },
+        "Invalid_colums": [
+            "Classe"
+        ]
     },
     {
         "id": 62,
@@ -3754,7 +3863,10 @@
                 "moyenne": 16.666666666666668
             },
             "moyenne_general": 16.472222222222225
-        }
+        },
+        "Invalid_colums": [
+            "Date_naissane"
+        ]
     },
     {
         "id": 63,
@@ -3813,7 +3925,8 @@
                 "moyenne": 13.333333333333334
             },
             "moyenne_general": 14.08333333333333
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 64,
@@ -3875,7 +3988,10 @@
                 "moyenne": 13.666666666666666
             },
             "moyenne_general": 11.305555555555555
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 65,
@@ -3936,7 +4052,8 @@
                 "moyenne": 12.0
             },
             "moyenne_general": 12.097222222222221
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 66,
@@ -3997,7 +4114,8 @@
                 "moyenne": 13.333333333333334
             },
             "moyenne_general": 14.518518518518519
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 67,
@@ -4058,7 +4176,10 @@
                 "moyenne": 13.333333333333334
             },
             "moyenne_general": 14.518518518518519
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 68,
@@ -4118,7 +4239,8 @@
                 "moyenne": 16.5
             },
             "moyenne_general": 11.333333333333334
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 69,
@@ -4178,7 +4300,8 @@
                 "moyenne": 14.0
             },
             "moyenne_general": 12.627777777777778
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 70,
@@ -4238,7 +4361,8 @@
                 "moyenne": 16.333333333333332
             },
             "moyenne_general": 15.157407407407407
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 71,
@@ -4299,7 +4423,8 @@
                 "moyenne": 13.333333333333334
             },
             "moyenne_general": 14.518518518518519
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 72,
@@ -4359,7 +4484,10 @@
                 "moyenne": 15.166666666666666
             },
             "moyenne_general": 15.055555555555555
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 73,
@@ -4419,7 +4547,10 @@
                 "moyenne": 14.0
             },
             "moyenne_general": 12.627777777777778
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 74,
@@ -4479,7 +4610,10 @@
                 "moyenne": 14.0
             },
             "moyenne_general": 12.627777777777778
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 75,
@@ -4539,7 +4673,10 @@
                 "moyenne": 12.333333333333334
             },
             "moyenne_general": 12.1
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 76,
@@ -4600,7 +4737,10 @@
                 "moyenne": 12.0
             },
             "moyenne_general": 12.097222222222221
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 77,
@@ -4660,7 +4800,10 @@
                 "moyenne": 12.333333333333334
             },
             "moyenne_general": 12.1
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 78,
@@ -4678,7 +4821,11 @@
             "PC": {},
             "HG": {},
             "moyenne_general": 0
-        }
+        },
+        "Invalid_colums": [
+            "Numero",
+            "Notes"
+        ]
     },
     {
         "id": 79,
@@ -4738,7 +4885,10 @@
                 "moyenne": 12.333333333333334
             },
             "moyenne_general": 12.1
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 80,
@@ -4799,7 +4949,10 @@
                 "moyenne": 12.333333333333334
             },
             "moyenne_general": 12.840277777777779
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 81,
@@ -4860,7 +5013,10 @@
                 "moyenne": 10.0
             },
             "moyenne_general": 11.777777777777777
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 82,
@@ -4920,7 +5076,10 @@
                 "moyenne": 17.166666666666668
             },
             "moyenne_general": 14.375
-        }
+        },
+        "Invalid_colums": [
+            "Classe"
+        ]
     },
     {
         "id": 83,
@@ -4980,7 +5139,8 @@
                 "moyenne": 12.666666666666666
             },
             "moyenne_general": 12.611111111111112
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 84,
@@ -5040,7 +5200,8 @@
                 "moyenne": 16.5
             },
             "moyenne_general": 11.333333333333334
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 85,
@@ -5101,7 +5262,8 @@
                 "moyenne": 15.0
             },
             "moyenne_general": 15.495185185185184
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 86,
@@ -5162,7 +5324,8 @@
                 "moyenne": 12.0
             },
             "moyenne_general": 12.097222222222221
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 87,
@@ -5222,7 +5385,8 @@
                 "moyenne": 16.5
             },
             "moyenne_general": 11.333333333333334
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 88,
@@ -5284,7 +5448,8 @@
                 "moyenne": 4.0
             },
             "moyenne_general": 11.379629629629628
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 89,
@@ -5346,7 +5511,8 @@
                 "moyenne": 4.0
             },
             "moyenne_general": 11.25
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 90,
@@ -5406,7 +5572,8 @@
                 "moyenne": 16.5
             },
             "moyenne_general": 11.333333333333334
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 91,
@@ -5466,7 +5633,8 @@
                 "moyenne": 2.5
             },
             "moyenne_general": 15.805555555555555
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 92,
@@ -5526,7 +5694,8 @@
                 "moyenne": 14.666666666666666
             },
             "moyenne_general": 13.361111111111112
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 93,
@@ -5586,7 +5755,8 @@
                 "moyenne": 12.333333333333334
             },
             "moyenne_general": 12.0
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 94,
@@ -5646,7 +5816,8 @@
                 "moyenne": 10.666666666666666
             },
             "moyenne_general": 13.611111111111112
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 95,
@@ -5706,7 +5877,8 @@
                 "moyenne": 11.5
             },
             "moyenne_general": 14.0
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 96,
@@ -5766,7 +5938,8 @@
                 "moyenne": 15.5
             },
             "moyenne_general": 12.805555555555557
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 97,
@@ -5826,7 +5999,8 @@
                 "moyenne": 13.833333333333334
             },
             "moyenne_general": 14.805555555555555
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 98,
@@ -5886,7 +6060,10 @@
                 "moyenne": 14.5
             },
             "moyenne_general": 15.388888888888891
-        }
+        },
+        "Invalid_colums": [
+            "Date_naissane"
+        ]
     },
     {
         "id": 99,
@@ -5946,7 +6123,8 @@
                 "moyenne": 13.5
             },
             "moyenne_general": 14.0
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 100,
@@ -6006,7 +6184,8 @@
                 "moyenne": 11.833333333333334
             },
             "moyenne_general": 14.444444444444443
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 101,
@@ -6066,7 +6245,8 @@
                 "moyenne": 16.333333333333332
             },
             "moyenne_general": 14.638888888888888
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 102,
@@ -6128,7 +6308,10 @@
                 "moyenne": 4.0
             },
             "moyenne_general": 11.231481481481481
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 103,
@@ -6190,7 +6373,10 @@
                 "moyenne": 4.0
             },
             "moyenne_general": 11.25
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 104,
@@ -6252,7 +6438,8 @@
                 "moyenne": 4.0
             },
             "moyenne_general": 11.268518518518519
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 105,
@@ -6314,7 +6501,10 @@
                 "moyenne": 4.0
             },
             "moyenne_general": 11.287037037037038
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 106,
@@ -6376,7 +6566,10 @@
                 "moyenne": 4.0
             },
             "moyenne_general": 11.305555555555557
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 107,
@@ -6438,7 +6631,10 @@
                 "moyenne": 4.0
             },
             "moyenne_general": 11.324074074074076
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 108,
@@ -6500,7 +6696,10 @@
                 "moyenne": 4.0
             },
             "moyenne_general": 11.342592592592593
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 109,
@@ -6562,7 +6761,8 @@
                 "moyenne": 4.0
             },
             "moyenne_general": 11.361111111111109
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 110,
@@ -6624,7 +6824,10 @@
                 "moyenne": 4.0
             },
             "moyenne_general": 11.379629629629628
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 111,
@@ -6686,7 +6889,10 @@
                 "moyenne": 4.0
             },
             "moyenne_general": 11.398148148148147
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 112,
@@ -6747,7 +6953,10 @@
                 "moyenne": 4.0
             },
             "moyenne_general": 11.046296296296296
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 113,
@@ -6809,7 +7018,10 @@
                 "moyenne": 4.0
             },
             "moyenne_general": 11.25
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 114,
@@ -6871,7 +7083,10 @@
                 "moyenne": 4.0
             },
             "moyenne_general": 11.25
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 115,
@@ -6933,7 +7148,10 @@
                 "moyenne": 4.0
             },
             "moyenne_general": 11.25
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 116,
@@ -6995,7 +7213,10 @@
                 "moyenne": 4.0
             },
             "moyenne_general": 11.25
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 117,
@@ -7057,7 +7278,10 @@
                 "moyenne": 4.0
             },
             "moyenne_general": 11.25
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 118,
@@ -7119,7 +7343,10 @@
                 "moyenne": 4.0
             },
             "moyenne_general": 11.25
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 119,
@@ -7181,7 +7408,10 @@
                 "moyenne": 4.0
             },
             "moyenne_general": 11.25
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 120,
@@ -7243,7 +7473,10 @@
                 "moyenne": 4.0
             },
             "moyenne_general": 11.25
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 121,
@@ -7305,7 +7538,10 @@
                 "moyenne": 4.0
             },
             "moyenne_general": 11.25
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 122,
@@ -7323,7 +7559,10 @@
             "PC": {},
             "HG": {},
             "moyenne_general": 0
-        }
+        },
+        "Invalid_colums": [
+            "Notes"
+        ]
     },
     {
         "id": 123,
@@ -7341,7 +7580,10 @@
             "PC": {},
             "HG": {},
             "moyenne_general": 0
-        }
+        },
+        "Invalid_colums": [
+            "Notes"
+        ]
     },
     {
         "id": 124,
@@ -7359,7 +7601,11 @@
             "PC": {},
             "HG": {},
             "moyenne_general": 0
-        }
+        },
+        "Invalid_colums": [
+            "Date_naissane",
+            "Notes"
+        ]
     },
     {
         "id": 125,
@@ -7419,7 +7665,8 @@
                 "moyenne": 12.333333333333334
             },
             "moyenne_general": 12.1
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 126,
@@ -7480,7 +7727,8 @@
                 "moyenne": 10.0
             },
             "moyenne_general": 11.777777777777777
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 127,
@@ -7541,7 +7789,8 @@
                 "moyenne": 10.0
             },
             "moyenne_general": 11.777777777777777
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 128,
@@ -7603,7 +7852,8 @@
                 "moyenne": 14.0
             },
             "moyenne_general": 12.835925925925928
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 129,
@@ -7664,7 +7914,8 @@
                 "moyenne": 12.0
             },
             "moyenne_general": 12.097222222222221
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 130,
@@ -7682,7 +7933,10 @@
             "PC": {},
             "HG": {},
             "moyenne_general": 0
-        }
+        },
+        "Invalid_colums": [
+            "Notes"
+        ]
     },
     {
         "id": 131,
@@ -7743,7 +7997,8 @@
                 "moyenne": 13.0
             },
             "moyenne_general": 13.221944444444444
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 132,
@@ -7803,7 +8058,8 @@
                 "moyenne": 16.5
             },
             "moyenne_general": 11.333333333333334
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 133,
@@ -7863,7 +8119,8 @@
                 "moyenne": 16.5
             },
             "moyenne_general": 11.333333333333334
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 134,
@@ -7923,7 +8180,8 @@
                 "moyenne": 16.5
             },
             "moyenne_general": 11.333333333333334
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 135,
@@ -7983,7 +8241,8 @@
                 "moyenne": 16.5
             },
             "moyenne_general": 11.333333333333334
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 136,
@@ -8043,7 +8302,8 @@
                 "moyenne": 16.5
             },
             "moyenne_general": 11.333333333333334
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 137,
@@ -8103,7 +8363,8 @@
                 "moyenne": 16.5
             },
             "moyenne_general": 11.333333333333334
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 138,
@@ -8163,7 +8424,8 @@
                 "moyenne": 16.5
             },
             "moyenne_general": 11.333333333333334
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 139,
@@ -8223,7 +8485,8 @@
                 "moyenne": 16.5
             },
             "moyenne_general": 11.333333333333334
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 140,
@@ -8283,7 +8546,8 @@
                 "moyenne": 16.5
             },
             "moyenne_general": 11.333333333333334
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 141,
@@ -8343,7 +8607,10 @@
                 "moyenne": 16.5
             },
             "moyenne_general": 11.333333333333334
-        }
+        },
+        "Invalid_colums": [
+            "Date_naissane"
+        ]
     },
     {
         "id": 142,
@@ -8361,7 +8628,10 @@
             "PC": {},
             "HG": {},
             "moyenne_general": 0
-        }
+        },
+        "Invalid_colums": [
+            "Notes"
+        ]
     },
     {
         "id": 143,
@@ -8379,7 +8649,10 @@
             "PC": {},
             "HG": {},
             "moyenne_general": 0
-        }
+        },
+        "Invalid_colums": [
+            "Notes"
+        ]
     },
     {
         "id": 144,
@@ -8397,7 +8670,10 @@
             "PC": {},
             "HG": {},
             "moyenne_general": 0
-        }
+        },
+        "Invalid_colums": [
+            "Notes"
+        ]
     },
     {
         "id": 145,
@@ -8415,7 +8691,11 @@
             "PC": {},
             "HG": {},
             "moyenne_general": 0
-        }
+        },
+        "Invalid_colums": [
+            "Date_naissane",
+            "Notes"
+        ]
     },
     {
         "id": 146,
@@ -8433,7 +8713,10 @@
             "PC": {},
             "HG": {},
             "moyenne_general": 0
-        }
+        },
+        "Invalid_colums": [
+            "Notes"
+        ]
     },
     {
         "id": 147,
@@ -8451,7 +8734,10 @@
             "PC": {},
             "HG": {},
             "moyenne_general": 0
-        }
+        },
+        "Invalid_colums": [
+            "Notes"
+        ]
     },
     {
         "id": 148,
@@ -8469,7 +8755,10 @@
             "PC": {},
             "HG": {},
             "moyenne_general": 0
-        }
+        },
+        "Invalid_colums": [
+            "Notes"
+        ]
     },
     {
         "id": 149,
@@ -8487,7 +8776,10 @@
             "PC": {},
             "HG": {},
             "moyenne_general": 0
-        }
+        },
+        "Invalid_colums": [
+            "Notes"
+        ]
     },
     {
         "id": 150,
@@ -8505,7 +8797,10 @@
             "PC": {},
             "HG": {},
             "moyenne_general": 0
-        }
+        },
+        "Invalid_colums": [
+            "Notes"
+        ]
     },
     {
         "id": 151,
@@ -8523,7 +8818,10 @@
             "PC": {},
             "HG": {},
             "moyenne_general": 0
-        }
+        },
+        "Invalid_colums": [
+            "Notes"
+        ]
     },
     {
         "id": 152,
@@ -8541,7 +8839,11 @@
             "PC": {},
             "HG": {},
             "moyenne_general": 0
-        }
+        },
+        "Invalid_colums": [
+            "Date_naissane",
+            "Notes"
+        ]
     },
     {
         "id": 153,
@@ -8559,7 +8861,11 @@
             "PC": {},
             "HG": {},
             "moyenne_general": 0
-        }
+        },
+        "Invalid_colums": [
+            "Numero",
+            "Notes"
+        ]
     },
     {
         "id": 154,
@@ -8577,7 +8883,10 @@
             "PC": {},
             "HG": {},
             "moyenne_general": 0
-        }
+        },
+        "Invalid_colums": [
+            "Notes"
+        ]
     },
     {
         "id": 155,
@@ -8595,7 +8904,10 @@
             "PC": {},
             "HG": {},
             "moyenne_general": 0
-        }
+        },
+        "Invalid_colums": [
+            "Notes"
+        ]
     },
     {
         "id": 156,
@@ -8613,7 +8925,10 @@
             "PC": {},
             "HG": {},
             "moyenne_general": 0
-        }
+        },
+        "Invalid_colums": [
+            "Notes"
+        ]
     },
     {
         "id": 157,
@@ -8631,7 +8946,10 @@
             "PC": {},
             "HG": {},
             "moyenne_general": 0
-        }
+        },
+        "Invalid_colums": [
+            "Notes"
+        ]
     },
     {
         "id": 158,
@@ -8649,7 +8967,11 @@
             "PC": {},
             "HG": {},
             "moyenne_general": 0
-        }
+        },
+        "Invalid_colums": [
+            "Numero",
+            "Notes"
+        ]
     },
     {
         "id": 159,
@@ -8667,7 +8989,10 @@
             "PC": {},
             "HG": {},
             "moyenne_general": 0
-        }
+        },
+        "Invalid_colums": [
+            "Notes"
+        ]
     },
     {
         "id": 160,
@@ -8685,7 +9010,12 @@
             "PC": {},
             "HG": {},
             "moyenne_general": 0
-        }
+        },
+        "Invalid_colums": [
+            "Numero",
+            "Date_naissane",
+            "Notes"
+        ]
     },
     {
         "id": 161,
@@ -8703,7 +9033,10 @@
             "PC": {},
             "HG": {},
             "moyenne_general": 0
-        }
+        },
+        "Invalid_colums": [
+            "Notes"
+        ]
     },
     {
         "id": 162,
@@ -8756,7 +9089,8 @@
             },
             "HG": {},
             "moyenne_general": 10.305555555555557
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 163,
@@ -8806,7 +9140,8 @@
                 "moyenne": 13.5
             },
             "moyenne_general": 12.388888888888888
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 164,
@@ -8863,7 +9198,8 @@
                 "moyenne": 10.166666666666666
             },
             "moyenne_general": 14.083333333333334
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 165,
@@ -8914,7 +9250,8 @@
                 "moyenne": 13.833333333333334
             },
             "moyenne_general": 11.944444444444445
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 166,
@@ -8965,7 +9302,8 @@
                 "moyenne": 15.166666666666666
             },
             "moyenne_general": 11.833333333333334
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 167,
@@ -9018,7 +9356,8 @@
             },
             "HG": {},
             "moyenne_general": 10.055555555555555
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 168,
@@ -9078,7 +9417,8 @@
                 "moyenne": 10.833333333333334
             },
             "moyenne_general": 13.611111111111109
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 169,
@@ -9131,7 +9471,8 @@
             },
             "HG": {},
             "moyenne_general": 10.638888888888888
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 170,
@@ -9181,7 +9522,8 @@
                 "moyenne": 16.0
             },
             "moyenne_general": 12.722222222222221
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 171,
@@ -9241,7 +9583,8 @@
                 "moyenne": 13.666666666666666
             },
             "moyenne_general": 15.722222222222221
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 172,
@@ -9301,7 +9644,8 @@
                 "moyenne": 14.333333333333334
             },
             "moyenne_general": 12.870370370370372
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 173,
@@ -9361,7 +9705,8 @@
                 "moyenne": 10.666666666666666
             },
             "moyenne_general": 10.249999999999998
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 174,
@@ -9421,7 +9766,8 @@
                 "moyenne": 10.666666666666666
             },
             "moyenne_general": 9.898148148148147
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 175,
@@ -9479,7 +9825,8 @@
                 "moyenne": 11.666666666666666
             },
             "moyenne_general": 11.944444444444443
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 176,
@@ -9540,7 +9887,8 @@
                 "moyenne": 13.0
             },
             "moyenne_general": 13.221944444444444
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 177,
@@ -9602,7 +9950,8 @@
                 "moyenne": 10.0
             },
             "moyenne_general": 12.041666666666666
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 178,
@@ -9661,7 +10010,8 @@
                 "moyenne": 13.333333333333334
             },
             "moyenne_general": 12.129629629629632
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 179,
@@ -9720,7 +10070,8 @@
                 "moyenne": 12.666666666666666
             },
             "moyenne_general": 11.611111111111112
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 180,
@@ -9780,7 +10131,8 @@
                 "moyenne": 11.666666666666666
             },
             "moyenne_general": 12.5
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 181,
@@ -9841,7 +10193,8 @@
                 "moyenne": 10.0
             },
             "moyenne_general": 11.777777777777777
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 182,
@@ -9902,7 +10255,8 @@
                 "moyenne": 12.0
             },
             "moyenne_general": 12.097222222222221
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 183,
@@ -9963,7 +10317,8 @@
                 "moyenne": 15.333333333333334
             },
             "moyenne_general": 12.337499999999999
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 184,
@@ -10024,7 +10379,8 @@
                 "moyenne": 17.333333333333332
             },
             "moyenne_general": 13.277777777777779
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 185,
@@ -10085,7 +10441,8 @@
                 "moyenne": 16.666666666666668
             },
             "moyenne_general": 14.486111111111112
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 186,
@@ -10146,7 +10503,8 @@
                 "moyenne": 15.333333333333334
             },
             "moyenne_general": 12.337499999999999
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 187,
@@ -10207,7 +10565,8 @@
                 "moyenne": 16.666666666666668
             },
             "moyenne_general": 13.137314814814815
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 188,
@@ -10268,7 +10627,8 @@
                 "moyenne": 14.333333333333334
             },
             "moyenne_general": 10.396574074074076
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 189,
@@ -10329,7 +10689,8 @@
                 "moyenne": 15.333333333333334
             },
             "moyenne_general": 12.999537037037037
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 190,
@@ -10390,7 +10751,8 @@
                 "moyenne": 10.333333333333334
             },
             "moyenne_general": 12.62861111111111
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 191,
@@ -10451,7 +10813,8 @@
                 "moyenne": 15.333333333333334
             },
             "moyenne_general": 12.337499999999999
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 192,
@@ -10511,7 +10874,8 @@
                 "moyenne": 12.333333333333334
             },
             "moyenne_general": 11.287037037037038
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 193,
@@ -10573,7 +10937,8 @@
                 "moyenne": 14.0
             },
             "moyenne_general": 12.835925925925928
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 194,
@@ -10634,7 +10999,8 @@
                 "moyenne": 12.333333333333334
             },
             "moyenne_general": 12.21111111111111
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 195,
@@ -10693,7 +11059,8 @@
                 "moyenne": 12.0
             },
             "moyenne_general": 12.347222222222221
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 196,
@@ -10754,7 +11121,8 @@
                 "moyenne": 12.0
             },
             "moyenne_general": 12.097222222222221
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 197,
@@ -10814,7 +11182,8 @@
                 "moyenne": 12.333333333333334
             },
             "moyenne_general": 11.266666666666666
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 198,
@@ -10875,7 +11244,10 @@
                 "moyenne": 13.0
             },
             "moyenne_general": 13.779814814814813
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 199,
@@ -10938,7 +11310,8 @@
                 "moyenne": 11.666666666666666
             },
             "moyenne_general": 13.701388888888888
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 200,
@@ -10998,7 +11371,8 @@
                 "moyenne": 14.0
             },
             "moyenne_general": 12.631944444444443
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 201,
@@ -11060,7 +11434,8 @@
                 "moyenne": 10.0
             },
             "moyenne_general": 12.157407407407407
-        }
+        },
+        "Invalid_colums": []
     },
     {
         "id": 202,
@@ -11120,7 +11495,10 @@
                 "moyenne": 2.5
             },
             "moyenne_general": 15.805555555555555
-        }
+        },
+        "Invalid_colums": [
+            "Date_naissane"
+        ]
     },
     {
         "id": 203,
@@ -11180,7 +11558,11 @@
                 "moyenne": 6.166666666666667
             },
             "moyenne_general": 12.138888888888888
-        }
+        },
+        "Invalid_colums": [
+            "Numero",
+            "Prenom"
+        ]
     },
     {
         "id": 204,
@@ -11240,7 +11622,11 @@
                 "moyenne": 2.5
             },
             "moyenne_general": 15.805555555555555
-        }
+        },
+        "Invalid_colums": [
+            "Numero",
+            "Date_naissane"
+        ]
     },
     {
         "id": 205,
@@ -11300,7 +11686,10 @@
                 "moyenne": 0.8333333333333334
             },
             "moyenne_general": 11.305555555555557
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 206,
@@ -11360,7 +11749,10 @@
                 "moyenne": 8.166666666666666
             },
             "moyenne_general": 15.388888888888888
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 207,
@@ -11420,7 +11812,10 @@
                 "moyenne": 8.333333333333334
             },
             "moyenne_general": 16.02777777777778
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 208,
@@ -11438,7 +11833,11 @@
             "PC": {},
             "HG": {},
             "moyenne_general": 0
-        }
+        },
+        "Invalid_colums": [
+            "Numero",
+            "Notes"
+        ]
     },
     {
         "id": 209,
@@ -11498,7 +11897,10 @@
                 "moyenne": 18.0
             },
             "moyenne_general": 17.13888888888889
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 210,
@@ -11558,7 +11960,10 @@
                 "moyenne": 17.333333333333332
             },
             "moyenne_general": 17.63888888888889
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     },
     {
         "id": 211,
@@ -11618,6 +12023,9 @@
                 "moyenne": 16.166666666666668
             },
             "moyenne_general": 18.88888888888889
-        }
+        },
+        "Invalid_colums": [
+            "Numero"
+        ]
     }
 ]
