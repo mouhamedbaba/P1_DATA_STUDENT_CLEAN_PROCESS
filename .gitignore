@@ -2,7 +2,7 @@
 *.pyc
 
 # Fichiers de cache
-__pycache__
+/__pycache__
 
 # Répertoire virtuel
 venv/
