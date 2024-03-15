@@ -1,8 +1,8 @@
-from app import App
-from web.wsgi import flak_app
+from manage import Manage
+from web.app import flak_app
 
 def run_in_terminal():
-    app = App()
+    app = Manage()
     app.run()
 
 def run_on_web():

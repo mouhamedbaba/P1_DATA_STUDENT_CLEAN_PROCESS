@@ -2,7 +2,7 @@ from utils import get_date_month_digit, display_menu, get_int
 import os
 import csv
 
-class App():
+class Manage():
     def __init__(self) -> None:
         """
         Constructeur pour initialiser la classe avec des listes vides pour data, valid_data et invalid_data.

@@ -1,9 +1,9 @@
 
-from app import App
+from manage import Manage
 from flask import Flask, render_template, request
 import json
-app = App()
-flak_app = Flask(__name__)
+manage = Manage()
+app = Flask(__name__)
 
 def get_data():
     try :
@@ -16,15 +16,15 @@ def get_data():
     return data
 
 
-@flak_app.route("/search")
+@app.route("/search")
 def search():
     num = request.args.get("num")
     students = get_data()
-    students = app.search_by_num(students, num)
+    students = manage.search_by_num(students, num)
     return render_template("search.html", students=students)
 
 
-@flak_app.route("/page=<int:page>/")
+@app.route("/page=<int:page>/")
 def paginate(page=1):
     par_page=10
     data =  get_data()
@@ -33,11 +33,11 @@ def paginate(page=1):
     np = len(data) // par_page
     data = data[minimum:maximum]
     return render_template("index.html", students=data, page=page, np=np)
-@flak_app.errorhandler(code_or_exception=404)
+@app.errorhandler(code_or_exception=404)
 def page_404(error):
     return render_template("404.html")
 
 if __name__ == "__main__" :
-    flak_app.run(debug=True)
+    app.run(debug=True)
 
 
